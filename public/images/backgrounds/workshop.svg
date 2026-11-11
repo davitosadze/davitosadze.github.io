@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="820" viewBox="0 0 800 820" fill="none">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e9e3c7"/><stop offset="1" stop-color="#aebda1"/></linearGradient>
+ <linearGradient id="glass" x1="270" y1="230" x2="540" y2="660" gradientUnits="userSpaceOnUse"><stop stop-color="#f5f2d3" stop-opacity=".7"/><stop offset=".45" stop-color="#c8dac0" stop-opacity=".18"/><stop offset="1" stop-color="#a0c3a1" stop-opacity=".6"/></linearGradient>
+ <linearGradient id="wood" x1="0" y1="650" x2="0" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#a47548"/><stop offset="1" stop-color="#5c3928"/></linearGradient>
+ <radialGradient id="green" cx=".3" cy=".2" r=".8"><stop stop-color="#b2c384"/><stop offset=".65" stop-color="#6c8651"/><stop offset="1" stop-color="#435936"/></radialGradient>
+ <radialGradient id="gold" cx=".3" cy=".2" r=".8"><stop stop-color="#f8d481"/><stop offset=".6" stop-color="#d79b47"/><stop offset="1" stop-color="#9e662e"/></radialGradient>
+ <radialGradient id="terracotta" cx=".3" cy=".2" r=".8"><stop stop-color="#e9ab7c"/><stop offset=".65" stop-color="#bc7154"/><stop offset="1" stop-color="#824b3d"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ <pattern id="grain" width="160" height="24" patternUnits="userSpaceOnUse"><path d="M0 8Q40 0 80 8T160 8M-40 20Q20 13 80 20T200 20" stroke="#432d20" stroke-opacity=".12" stroke-width="2"/></pattern>
+ <clipPath id="arch"><path d="M65 655V320a335 335 0 0 1 670 0v335Z"/></clipPath>
+ <g id="pine"><path d="m0 0-25 48h14l-26 37h20l-28 37h90L17 85h20L11 48h14Z" fill="currentColor"/><path d="M-3 110h6v35h-6Z" fill="currentColor"/></g>
+</defs>
+<g clip-path="url(#arch)">
+ <path fill="url(#sky)" d="M0 0h800v750H0z"/>
+ <circle cx="570" cy="183" r="67" fill="#f8edc6" opacity=".85"/>
+ <path d="m-40 427 170-225 106 134 130-216 201 268 115-174 180 265v221H-40Z" fill="#a9b8a6"/>
+ <path d="m294 240 72-120 92 123-62-28-29 16-25-27Z" fill="#e5e8d7" opacity=".9"/>
+ <path d="m-30 470 187-156 97 94 150-126 202 188 104-124 132 137v240H-30Z" fill="#7e9d88"/>
+ <path d="M0 491q170-79 363 11t437-47v246H0Z" fill="#bdc6a7"/>
+ <path d="M180 538q126-11 314 4m-266 24q164 9 361-2m-300 35q67-8 168 0m-110 29h223" stroke="#e6e6c8" stroke-width="3" opacity=".65"/>
+ <path d="M0 450q125 30 202 94L0 610Zm800-8q-141 12-226 92l226 69Z" fill="#536f56"/>
+ <g color="#536e54"><use href="#pine" x="106" y="343"/><use href="#pine" transform="translate(646 310) scale(1.3)"/><use href="#pine" transform="translate(708 355) scale(.9)"/></g>
+ <g color="#344f3c"><use href="#pine" transform="translate(37 245) scale(2.3)"/><use href="#pine" transform="translate(756 285) scale(2.1)"/><use href="#pine" transform="translate(130 402) scale(.75)"/></g>
+ <path d="M63 615q180-43 289 11t385-9v80H63Z" fill="#395641"/>
+</g>
+<path d="M65 648V320a335 335 0 0 1 670 0v328" stroke="#667054" stroke-width="3" opacity=".6"/>
+<path d="M50 654V320a350 350 0 0 1 700 0v334" stroke="#d5c6a4" stroke-width="2"/>
+<path d="M17 662h766l-30 53H43Z" fill="#bc9060"/>
+<path d="M43 715h710v75H43Z" fill="url(#wood)"/>
+<path d="M17 662h766v17H17Z" fill="#d0a371"/>
+<path d="M43 715h710v75H43ZM17 662h766v17H17Z" fill="url(#grain)"/>
+<path d="M67 696h651M172 665l-8 42m201-43v42m198-42 9 42" stroke="#784e32" stroke-opacity=".5" stroke-width="2"/>
+<ellipse cx="401" cy="671" rx="145" ry="21" fill="#2b3d2d" opacity=".3" filter="url(#shadow)"/>
+<!-- Decorative glassware, deliberately without gameplay controls or interface. -->
+<path d="M349 277h105v74c0 19 12 38 29 52l34 30c17 15 27 36 27 59v133c0 29-22 48-49 48H306c-27 0-49-19-49-48V492c0-23 10-44 27-59l34-30c18-14 31-33 31-52Z" fill="url(#glass)" stroke="#e0e8c7" stroke-width="5"/>
+<path d="M364 293v64c0 27-17 49-37 66l-28 25c-16 15-22 28-22 51v115" stroke="#fffde0" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+<path d="M519 488v137c0 17-11 26-28 26H309" stroke="#daebcb" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+<rect x="337" y="269" width="129" height="25" rx="9" fill="#d9e1ba" fill-opacity=".8" stroke="#f0efd2" stroke-width="3"/>
+<path d="M343 280h116" stroke="#99ad8b" stroke-width="3"/>
+<circle cx="349" cy="598" r="50" fill="url(#green)"/><ellipse cx="333" cy="574" rx="17" ry="8" transform="rotate(-28 333 574)" fill="#e7e8b9" opacity=".4"/>
+<circle cx="452" cy="596" r="54" fill="url(#gold)"/><ellipse cx="434" cy="570" rx="18" ry="8" transform="rotate(-28 434 570)" fill="#fff0bd" opacity=".5"/>
+<circle cx="398" cy="505" r="49" fill="url(#terracotta)"/><ellipse cx="382" cy="481" rx="17" ry="8" transform="rotate(-28 382 481)" fill="#ffdbb3" opacity=".4"/>
+<circle cx="633" cy="654" r="42" fill="url(#green)"/><ellipse cx="621" cy="635" rx="13" ry="6" transform="rotate(-28 621 635)" fill="#eef0bd" opacity=".4"/>
+<circle cx="193" cy="663" r="29" fill="url(#gold)"/><ellipse cx="185" cy="650" rx="10" ry="4" transform="rotate(-28 185 650)" fill="#fff0bd" opacity=".5"/>
+<!-- Potted fern -->
+<path d="m76 626 12 57h65l12-57Z" fill="#b77650"/><path d="M74 620h93v13H74Z" fill="#c88d64"/><path d="M120 624q0-72-19-122m21 121q19-79 59-115m-62 115q-29-65-64-79" stroke="#405639" stroke-width="4"/>
+<g fill="#5c7445"><path d="M111 558q-52-6-44-42 40 6 44 42Zm5 38q-58-8-53-37 40-1 53 37Zm-10-64q29-27 5-49-21 23-5 49Zm28 42q3-47 38-45-1 29-38 45Zm-4 26q42-43 61-15-23 23-61 15Zm26-51q0-40 33-42 5 27-33 42Z"/></g>
+<!-- Airy botanical accents -->
+<g stroke="#637448" stroke-width="2"><path d="M712 180q29-66 1-130M715 133q-33-25-34-48m39 68q31-22 37-48"/></g>
+<g fill="#7e8a58"><path d="M714 107q-27-10-19-33 25 6 19 33Zm7 35q30-4 28-29-26 3-28 29Zm-17-61q-13-22 2-36 16 17-2 36Z"/></g>
+<g fill="#d5af61"><path d="m223 184 4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/><path d="m578 376 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/><circle cx="186" cy="367" r="3"/><circle cx="615" cy="258" r="3"/></g>
+</svg>

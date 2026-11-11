@@ -1,0 +1,41 @@
+{
+  "name": "balance-keeper-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "preview": "serve out",
+    "check:release": "node scripts/check-release.mjs",
+    "test:e2e": "playwright test",
+    "generate:assets": "node scripts/generate-assets.mjs",
+    "test:config": "node scripts/test-config.mjs",
+    "test:configured": "node scripts/verify-configured.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.2.0",
+    "@fontsource-variable/fraunces": "^5.2.0",
+    "next": "^16.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.2.0",
+    "prettier": "^3.9.8",
+    "serve": "^14.2.0",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.2.0",
+    "typescript": "^5.9.0"
+  }
+}
