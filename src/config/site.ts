@@ -4,7 +4,7 @@ export const siteConfig = {
   description:
     'Find the right combination of weights, balance every bottle and master 50 challenging puzzles in Balance Keeper.',
   // Set the public HTTPS origin before release, e.g. https://your-domain.com.
-  url: '',
+  url: 'https://davitosadze.github.io',
   supportEmail: 'davitosadze7@gmail.com',
   googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.balancekeeper.game',
   googlePlayEnabled: true,
